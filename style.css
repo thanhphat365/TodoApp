@@ -1,0 +1,57 @@
+#add {
+    height: 30px;
+    background-color: rgb(117, 223, 12);
+    border: 0;
+    font-size: larger;
+    color: white;
+    border-radius: 50%;
+}
+body{
+    background-image: url('backgroup.jpg');
+}
+
+li {
+    display: flex;
+    list-style: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    padding: 10px;
+    margin: 10px;
+    max-width: 800px;
+    justify-content: space-between;
+    color:purple
+}
+.todo-app{
+    width: 50%;
+    height: 70%;
+    background-color: rgb(201, 195, 195);
+    border-radius: 10px;
+}
+
+#task li button {
+    display: flex;
+    color: red;
+    border: 0;
+    height: 30px;
+    background: none;
+    font-size: larger;
+    float: left;
+    width: 80px;
+}
+
+#tasK {
+    text-align: center;
+    color:aqua;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+h1 {
+    text-align: center;
+    color:blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#input {
+    text-align: center;
+    width: 50%;
+}
